@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+		@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+
+		.heart {
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			margin-left: 600px;
+			margin-top: 100px;
+			background-color: white;
+			border-radius: 50px;
+			transition: 700ms ease;
+			-o-transition: 700ms ease;
+			-mozila-transition: 700ms ease;
+            -webkit-transition: 700ms ease;
+		}
+
+		.heart #h {
+			color: black;
+			font-size: 80px;
+			cursor: pointer;
+			padding-top: 15px;
+			padding-left: 10px;
+			transition: 700ms ease;
+			-o-transition: 700ms ease;
+			-mozila-transition: 700ms ease;
+			-webkit-transition: 700ms ease;
+	    }
+
+	    .heart #h:hover{
+	    	color: pink;
+	    	opacity: .7;
+	    }
+
+	    .heart.hide {
+	    	z-index: 1;
+	    }
+
+        #c {
+			font-size: 40px;
+			position: absolute;
+			font-family: 'Lato', sans-serif;
+			background-color: white;
+			margin-left: 740px;
+			margin-top: 120px;
+			transition: 600ms ease;
+			-o-transition: 600ms ease;
+			-mozila-transition: 600ms ease;
+			-webkit-transition: 600ms ease;
+		}
+
+		.heart #h.color {
+			color: pink;
+		}
+
+		.dislike {
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			border-radius: 50px;
+			margin-left: 900px;
+			margin-top: 100px;
+			background-color: white;
+			transition: 700ms ease;
+			-o-transition: 700ms ease;
+			-mozila-transition: 700ms ease;
+			-webkit-transition: 700ms ease;
+		}
+
+		.dislike.b {
+			z-index: 1;
+		}
+
+		.dislike #d {
+			font-size: 80px;
+            color: black;
+            cursor: pointer;
+            padding-left: 15px;
+            padding-top: 15px;
+            transition: 700ms ease;
+            -o-transition: 700ms ease;
+            -mozila-transition: 700ms ease;
+            -webkit-transition: 700ms ease;
+		}
+
+		.dislike #d:hover {
+			color: red;
+			opacity: .7;
+		}
+
+		.dislike #d.c {
+			color: red;
+		}
+
+        #l {
+        	font-size: 40px;
+        	font-family: 'Lato', sans-serif;
+        	position: absolute;
+        	margin-top: 120px;
+        	margin-left: 1060px;
+        	transition: 700ms ease;
+        	-o-transition: 700ms ease;
+        	-webkit-transition: 700ms ease;
+        	-mozila-transition: 700ms ease;
+        }
+
+        .heart-item {
+        	position: absolute;
+        	height: 50px;
+        	width: 200px;
+        	border-radius: 5px;
+        	cursor: pointer;
+        	margin-left: 550px;
+            margin-top: 120px;
+            background-color: black;
+            transition: 700ms ease;
+            -o-transition: 700ms ease;
+            -mozila-transition: 700ms ease;
+            -webkit-transition: 700ms ease;
+            opacity: 0;
+        }
+
+        .heart-item:hover {
+        	opacity: .7;
+            background-color: grey;
+        }
+
+        .heart-item.anim1 {
+            opacity: .1;
+        }
+
+        .heart-item.anim2 {
+           opacity: .4;
+        }
+
+        .heart-item.anim3 {
+        	opacity: .8;
+        }
+
+        .heart-item.anim4 {
+        	opacity: 1;
+        	margin-top: 40px;
+        }
+
+        .heart-item .heart-text {
+            font-size: 25px;
+            text-align: center;
+            color: white;
+            font-family: 'Patua One', cursive;
+            margin-top: 10px;
+            transition: 700ms ease;
+            -o-transition: 700ms ease;
+            -mozila-transition: 700ms ease;
+            -webkit-transition: 700ms ease;
+        }
+
+        .heart-item .heart-text:hover {
+        	color: black;
+        }
+
+        .dizlike-item {
+        	position: absolute;
+        	width: 200px;
+        	height: 50px;
+        	margin-left: 850px;
+        	margin-top: 120px;
+        	border-radius: 5px;
+        	cursor: pointer;
+        	background-color: black;
+        	transition: 700ms ease;
+        	-o-transition: 700ms ease;
+        	-mozila-transition: 700ms ease;
+        	-webkit-transition: 700ms ease;
+        	opacity: 0;
+        }
+
+        .dizlike-item:hover {
+        	opacity: .7;
+        	background-color: grey;
+        }
+
+        .dizlike-item .dizlike-text {
+        	font-size: 25px;
+        	font-family: 'Patua One', cursive;
+        	text-align: center;
+        	color: white;
+        	margin-top: 10px;
+        	transition: 700ms ease;
+        	-o-transition: 700ms ease;
+        	-mozila-transition: 700ms ease;
+        	-webkit-transition: 700ms ease;
+        }
+
+        .dizlike-item .dizlike-text:hover {
+        	color: black;
+        }
+
+        .dizlike-item.d1 {
+            opacity: .1;
+        }
+
+        .dizlike-item.d2 {
+        	opacity: .4;
+        }
+
+        .dizlike-item.d3 {
+        	opacity: .8;
+        }
+
+        .dizlike-item.d4 {
+        	opacity: 1;
+        	margin-top: 40px;
+        }
